@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{8D973AC4-4142-4207-915B-7B66CB1B806E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ControlHome</RootNamespace>
+    <AssemblyName>ControlHome</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoStdLib>true</NoStdLib>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Bridge.Min.1.14.0\build\Bridge.Min.targets" Condition="Exists('..\packages\Bridge.Min.1.14.0\build\Bridge.Min.targets')" />
+  <ItemGroup>
+    <Reference Include="Bridge">
+      <HintPath>..\packages\Bridge.Core.1.14.0\lib\net40\Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bridge.Html5">
+      <HintPath>..\packages\Bridge.Html5.1.14.0\lib\net40\Bridge.Html5.dll</HintPath>
+    </Reference>
+    <Reference Include="Bridge.Console">
+      <HintPath>..\packages\Bridge.Console.1.0.1\lib\net40\Bridge.Console.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Bridge\bridge.json" />
+    <None Include="Bridge\www\demo.html" />
+    <None Include="Bridge\img\City_Wallpaper_1280X720.jpg" />
+    <None Include="Bridge\img\City_Wallpaper_1920X1080.jpg" />
+    <None Include="Bridge\img\City_Wallpaper_320X180.jpg" />
+    <None Include="Bridge\img\City_Wallpaper_orig_high.jpg" />
+    <None Include="Bridge\img\City_Wallpaper_orig_low.jpg" />
+    <None Include="Bridge\font\Mad_Midnight_Marker.eot" />
+    <None Include="Bridge\font\Mad_Midnight_Marker.ttf" />
+    <None Include="Bridge\data\box_list.json" />
+    <None Include="Bridge\www\index.html" />
+    <None Include="Bridge\favicon.ico" />
+    <None Include="Bridge\index.html" />
+    <None Include="obj\x86\Debug\ControlHome.csproj.FilesWrittenAbsolute.txt" />
+    <None Include="obj\x86\Debug\ControlHome.dll" />
+    <None Include="obj\x86\Debug\ControlHome.dll.mdb" />
+    <None Include="Bridge\js\bridge.js" />
+    <None Include="Bridge\js\bridge.min.js" />
+    <None Include="Bridge\js\controlHome.js" />
+    <None Include="Bridge\js\controlHome.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="cs\HTMLBackground.cs" />
+    <Compile Include="cs\HTMLBox.cs" />
+    <Compile Include="cs\HTMLBoxStructure.cs" />
+    <Compile Include="cs\StaticTools.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cs\" />
+  </ItemGroup>
+</Project>

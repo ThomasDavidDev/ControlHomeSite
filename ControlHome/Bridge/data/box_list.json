@@ -1,0 +1,75 @@
+{
+  "arduino_URL": "http://192.168.1.53:8080",
+  "box_list": [
+    {
+      "pin": 22,
+      "time": 500,
+      "name": "Tuinhuis Aan",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 22,
+      "time": 1500,
+      "name": "Tuinhuis & Tuin Aan",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 28,
+      "time": 500,
+      "name": "Tuinhuis & Tuin Uit",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 29,
+      "time": 500,
+      "name": "Kamer Thomas",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 30,
+      "time": 500,
+      "name": "Kamer David",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 23,
+      "time": 500,
+      "name": "Ochtend Lichten",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 25,
+      "time": 500,
+      "name": "TV Lichten",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 25,
+      "time": 2500,
+      "name": "TV Lichten & Alles Uit",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 24,
+      "time": 500,
+      "name": "Nacht Lichten",
+      "command": "pulsTimer"
+    },
+    {
+      "pin": 27,
+      "time": 1500,
+      "name": "Alles Uit",
+      "command": "pulsTimer"
+    }
+  ],
+  "box_urls": [
+    {
+      "url": "http://ircontrol.bitballoon.com/",
+      "name": "IR Control"
+    },
+    {
+      "url": "https://www.facebook.com/thomas.devoogdt",
+      "name": "By. Thomas Devoogdt"
+    }
+  ]
+}
