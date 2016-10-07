@@ -1,0 +1,8 @@
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/bin/Release/ControlHome.dll.mdb
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/bin/Release/ControlHome.dll
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/obj/x86/Release/ControlHome.dll
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/obj/x86/Release/ControlHome.dll.mdb
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/bin/Release/Bridge.dll
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/bin/Release/Bridge.Html5.dll
+/home/thomas/Documenten/MonoDevelop/ControlHome/ControlHome/bin/Release/Bridge.Console.dll

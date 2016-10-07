@@ -4,6 +4,15 @@ using System.Collections.Generic;
 using Bridge;
 using Bridge.Html5;
 
+
+/*
+ * google-chrome http://localhost:8000/
+ * firefox http://localhost:8000/
+ * ${SolutionDir}/ControlHome/Bridge$ python -m SimpleHTTPServer
+ * 
+ */
+
+
 namespace ControlHome
 {
 	public static class StaticTools
